@@ -107,7 +107,7 @@ const Sidebar = () => {
                     </li>
 
                     {/* Modulo Usuarios*/}
-                    {usuario?.rol_id != 2 && (<li className="nav-item mb-2">
+                    {usuario?.rol_id !== 2 && (<li className="nav-item mb-2">
                         <button
                             className="btn btn-link nav-link text-white d-flex align-items-center"
                             onClick={toggleRegistros}
@@ -151,7 +151,7 @@ const Sidebar = () => {
 
                     {/* Modulo Clientes*/}
 
-                    {usuario?.rol_id != 2 && (<li className="nav-item mb-2">
+                    {usuario?.rol_id !== 2 && (<li className="nav-item mb-2">
                         <button
                             className="btn btn-link nav-link text-white d-flex align-items-center"
                             onClick={toggleClientes}
@@ -182,7 +182,7 @@ const Sidebar = () => {
 
                     {/* Modulo Menu */}
 
-                    {usuario?.rol_id != 2 && (
+                    {usuario?.rol_id !== 2 && (
                         <li className="nav-item mb-2">
                             <button
                                 className="btn btn-link nav-link text-white d-flex align-items-center"
@@ -272,7 +272,7 @@ const Sidebar = () => {
                     </li>
                     {/* Modulo Cocina */}
 
-                    {usuario?.rol_id != 2 && (
+                    {usuario?.rol_id !== 2 && (
                         <li className="nav-item mb-2">
                             <button
                                 className="btn btn-link nav-link text-white d-flex align-items-center"
@@ -298,7 +298,7 @@ const Sidebar = () => {
 
                     {/* Modulo Reportes */}
 
-                    {usuario?.rol_id != 2 && (
+                    {usuario?.rol_id !== 2 && (
                         <li className="nav-item mb-2">
                             <button
                                 className="btn btn-link nav-link text-white d-flex align-items-center"
